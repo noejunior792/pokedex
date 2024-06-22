@@ -1,0 +1,11 @@
+* {
+    font-family: "JetBrains Mono", monospace;
+}
+
+.content{
+    padding: 1rem;
+}
+
+.content h1{
+    margin: 0;
+}
