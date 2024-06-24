@@ -1,4 +1,4 @@
-.languagues {
+.pokemons {
     display: grid;
     grid-template-columns: 1fr;
     list-style: none;
@@ -7,24 +7,24 @@
 }
 
 @media screen and (min-width: 388px){
-    .languagues{
+    .pokemons{
         grid-template-columns: 1fr 1fr;
     }
 }
 
 @media screen and (min-width: 576px){
-    .languagues{
+    .pokemons{
         grid-template-columns: 1fr 1fr 1fr;
     }
 }
 
 @media screen and (min-width: 992px){
-    .languagues{
+    .pokemons{
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 }
 
-.languague {
+.pokemon {
     margin: .5rem;
     padding: 2rem 1rem;
     background-color: #14A06F;
@@ -34,38 +34,38 @@
     flex-direction: column;
 }
 
-.languague detail img {
+.pokemon detail img {
     max-width: 100%;
     height: 100px;
     align-self: flex-end;
     
 }
 
-.languague .name{
+.pokemon .name{
     color: #fff;
     margin: 0;
 }
 
-.languague .number {
+.pokemon .number {
     text-align: right;
     color: #000;
     opacity: .3;
 }
 
-.languague .detail{
+.pokemon .detail{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
 }
 
-.languague .detail .types{
+.pokemon .detail .types{
     padding: 0;
     margin: 0;
     list-style: none;
 }
 
-.languague .detail .types .type{
+.pokemon .detail .types .type{
     background-color: #61e1ca;
     color: #fff;
     padding: .25rem .5rem;
