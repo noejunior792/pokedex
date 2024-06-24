@@ -1,3 +1,5 @@
+/* Ol Class */
+
 .pokemons {
     display: grid;
     grid-template-columns: 1fr;
@@ -23,6 +25,8 @@
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 }
+
+/* Pokemon Element List */
 
 .pokemon {
     margin: .5rem;
@@ -72,14 +76,5 @@
     margin: .25rem 0;
     font-size: .825rem;
     border-radius: 1rem;
-}
-
-@media screen and (min-width: 992px){
-    .content{
-        max-width: 992px;
-        margin: 1rem auto;
-        height: auto;
-        border-radius: 1rem;
-    }
 }
 
