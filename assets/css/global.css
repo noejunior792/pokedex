@@ -1,29 +1,25 @@
-* {
-    font-family: "JetBrains Mono", monospace;
+*{
+    font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
+    
 }
 
 body{
-    background-color: #f6f8fc;
+    background-color:#3c0101; 
 }
 
-.content {
+.content{
+    padding: 1rem; 
     width: 100vw;
-    padding: 1rem;
-    background-color: #fff;
     height: 100vh;
+    background-color: rgb(227, 225, 230)
+    
 }
 
-.content h1 {
+.content h1{
     margin: 0;
 }
 
-@media screen and (min-width: 992px){
-    .content{
-        max-width: 992px;
-        margin: 1rem auto;
-        height: auto;
-        border-radius: 1rem;
-    }
-}
+
+
 
